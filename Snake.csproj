@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\FoodGeneration.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
     <Compile Include="Assets\Scripts\PauseGame.cs" />
+    <Compile Include="Assets\Scripts\RestartGame.cs" />
     <Compile Include="Assets\Scripts\SnakeMovement.cs" />
     <Compile Include="Assets\Scripts\TailMovement.cs" />
   </ItemGroup>
