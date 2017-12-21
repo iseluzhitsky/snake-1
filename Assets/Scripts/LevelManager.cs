@@ -25,6 +25,7 @@ public class LevelManager : MonoBehaviour
             optionsMenu.gameObject.SetActive(clicked);
             mainMenu.gameObject.SetActive(true);
         }
+
     }
 
     public void CreditsMenu(bool clicked)
