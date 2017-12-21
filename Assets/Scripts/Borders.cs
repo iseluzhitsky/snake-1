@@ -9,6 +9,7 @@ public class Borders : MonoBehaviour {
     {
         if (other.CompareTag("SnakeMain"))
         {
+            //Time.timeScale = 0;
             SceneManager.LoadScene("Play");
         }
     }

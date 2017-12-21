@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class PauseGame : MonoBehaviour {
 
     public Transform canvas;
-	// Update is called once per frame
+
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.Escape))
         {
@@ -14,6 +14,7 @@ public class PauseGame : MonoBehaviour {
         }
 
 	}
+
 
     public void Pause ()
     {
@@ -28,6 +29,7 @@ public class PauseGame : MonoBehaviour {
             Time.timeScale = 1;
         }
     }
+
 
     public void MainMenu()
     {
